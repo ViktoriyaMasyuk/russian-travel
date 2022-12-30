@@ -1,0 +1,7 @@
+.cover__background {
+    margin: 0;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    z-index: 0;
+    width: 100%;
+}

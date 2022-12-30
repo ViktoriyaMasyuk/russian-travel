@@ -1,0 +1,14 @@
+.place {
+    display: grid;
+    color: #FFFFFF;
+    grid-template-areas:
+    "place__title place__website"
+    "place__image place__paragraph";
+    max-width: max-content;
+    column-gap: 40px;
+    row-gap: 48px;
+    margin: 0;
+    padding: 0;
+    align-content: flex-start;
+
+}

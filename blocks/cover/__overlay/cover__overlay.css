@@ -1,0 +1,15 @@
+.cover__overlay {
+    background-image: url(../../../images/__overlay.png);
+    opacity: 30%;
+    transition: opacity 1s linear 0.1s;
+    z-index: 1;
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+    grid-column: 1/4;
+    grid-row: 1/4;
+
+}
+.cover__overlay:hover {
+    opacity: 80%;
+  }

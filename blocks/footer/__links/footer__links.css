@@ -1,0 +1,6 @@
+.footer__links {
+    display: grid;
+    grid-template-columns: repeat(5, max-content);
+    column-gap: 18px;
+    justify-content: flex-start;
+}
