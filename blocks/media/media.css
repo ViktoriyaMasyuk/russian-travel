@@ -179,9 +179,6 @@
         width: 320px;
         max-height: 320px;
     }
-    #place__image br {
-        display: none;
-    }
     .place__paragraph {
         max-width: 288px;
         margin: 0 auto;
