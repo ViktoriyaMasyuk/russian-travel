@@ -1,4 +1,4 @@
-.place__website__link {
+.place__link {
     grid-area: place__website_link;
     margin: 0;
     max-width: 456px;
