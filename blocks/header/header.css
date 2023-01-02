@@ -2,8 +2,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 1184px;
-    max-height: 52px;
+    width: calc(100% - 96px);
     margin: 0 auto;
     padding-top: 28px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+   .header {
+         width: calc(100% - 32px);
+         padding-top: 16px;
+    }
 }

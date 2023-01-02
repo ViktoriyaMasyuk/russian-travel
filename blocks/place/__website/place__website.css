@@ -3,5 +3,15 @@
     align-self: flex-end;
     margin-bottom: 0;
     max-width: 456px;
-    max-height: 46px;
+}
+@media screen and (max-width: 1010px) {
+    .place__website {
+        max-width: 352px;
+    }
+}
+@media screen and (max-width: 7500px) {
+    .place__website {
+        max-width: 288px;
+        margin: 0 auto 0 16px;
+    }
 }

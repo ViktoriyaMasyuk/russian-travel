@@ -1,9 +1,22 @@
 .footer {
-    max-width: 1184px;
-    min-height: 18px;
+    width: calc(100% - 98px);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     color: #FFFFFF;
     margin: 92px auto 0 auto;
+}
+
+  @media screen and (max-width: 1010px) {
+    .footer {
+    width: calc(100% - 48px);
+    }
+  } 
+@media screen and (max-width: 750px) {
+    .footer {
+        width: calc(100% - 32px);
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 64px auto 0 auto;
+    }
 }
