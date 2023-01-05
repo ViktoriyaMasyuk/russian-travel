@@ -3,19 +3,22 @@
     color: #FFFFFF;
     grid-template-areas:
     "place__title place__website"
-    "place__image place__paragraph";
+    "place__image place__chapter";
     margin: 0 auto;
     column-gap: 40px;
     row-gap: 48px;
-    align-content: flex-start;
+    align-items: flex-start;
+}
+@media screen and (max-width: 1250px) {
+    .place {
+        column-gap: 32px;
+    }
 }
 @media screen and (max-width: 1010px) {
     .place {
-        column-gap: 40px;
-
+        column-gap: 28px;
     }
 }
-
 @media screen and (max-width: 750px) {
     .place {
         width: 100%;
@@ -24,7 +27,7 @@
         "place__title"
         "place__website"
         "place__image"
-        "place__paragraph";
+        "place__chapter";
         row-gap: 32px;
     }
 }

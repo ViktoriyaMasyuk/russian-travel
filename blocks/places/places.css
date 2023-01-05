@@ -15,7 +15,7 @@
     .places {
         width: calc(100% - 48px);
         row-gap: 72px;
-        margin: 88px auto 92px auto;
+        margin: 88px auto 90px auto;
     }
 }
 @media screen and (max-width: 750px) {

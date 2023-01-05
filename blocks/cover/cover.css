@@ -1,10 +1,14 @@
 .cover {
-    width: 100%;
+    width: calc(100% - 298px);
+    background-image: url(../../images/__background.png);
     color: #FFFFFF;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(4, auto);
-    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 0 auto;
     padding: 0;
+}
+@media screen and (max-width: 1020px) {
+    .cover {
+        width: 100%;
+    }
 }

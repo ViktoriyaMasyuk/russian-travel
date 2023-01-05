@@ -1,9 +1,7 @@
 .place__link {
     grid-area: place__website_link;
-    margin: 0;
+    margin: 12px 0 0 0;
     max-width: 456px;
-    max-height: 22px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;

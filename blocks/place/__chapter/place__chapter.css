@@ -1,0 +1,29 @@
+.place__chapter {
+    grid-area: place__chapter;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    row-gap: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    margin: 0px;
+}
+
+@media screen and (max-width: 1270px) {
+    .place__chapter {
+        max-width: 456px;
+    }
+}
+@media screen and (max-width: 1010px) {
+    .place__chapter {
+        max-width: 352px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .place__chapter {
+        max-width: 288px;
+        justify-self: center;
+    }
+}
+
+
