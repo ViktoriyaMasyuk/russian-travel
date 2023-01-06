@@ -1,6 +1,5 @@
 .place__link {
-    grid-area: place__website_link;
-    margin: 12px 0 0 0;
+    margin: 0px;
     max-width: 456px;
     font-style: normal;
     font-weight: 400;

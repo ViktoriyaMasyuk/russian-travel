@@ -8,7 +8,9 @@
     line-height: 163%;
     margin: 0px;
 }
-
+.place__chapter:last-of-type {
+    row-gap: 0px;
+} 
 @media screen and (max-width: 1270px) {
     .place__chapter {
         max-width: 456px;

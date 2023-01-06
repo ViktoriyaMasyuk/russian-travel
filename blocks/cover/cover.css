@@ -1,14 +1,16 @@
 .cover {
-    width: calc(100% - 298px);
-    background-image: url(../../images/__background.png);
-    color: #FFFFFF;
-    background-repeat: no-repeat;
-    background-position: center;
+    max-width: 1184px;
     margin: 0 auto;
     padding: 0;
+}
+@media screen and (max-width: 1270px) {
+    .intro {
+        width: calc(100% - 296px);
+    }
 }
 @media screen and (max-width: 1020px) {
     .cover {
         width: 100%;
     }
 }
+

@@ -7,21 +7,19 @@
     margin: 245px 0px 0px 0px;
     justify-self: center;
     align-self: center;
-    color: #FFFFFF;
 }
 @media screen and (max-width: 1260px) {
-    .cover {
+    .cover__title {
         width: 100%;
         margin: 195px 0px 0px 0px;
     }
 }
 @media screen and (max-width: 1020px) {
-    .cover {
-        width: 100%;
+    .cover__title {
         margin: 115px 0px 0px 0px;
     }
 }
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 520px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
