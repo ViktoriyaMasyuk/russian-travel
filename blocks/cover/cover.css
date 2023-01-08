@@ -3,9 +3,9 @@
     margin: 0 auto;
     padding: 0;
 }
-@media screen and (max-width: 1270px) {
-    .intro {
-        width: calc(100% - 296px);
+@media screen and (max-width: 1250px) {
+    .cover {
+        width: 100%;
     }
 }
 @media screen and (max-width: 1020px) {

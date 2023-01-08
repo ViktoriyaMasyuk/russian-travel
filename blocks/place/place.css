@@ -29,5 +29,6 @@
         "place__image"
         "place__chapter";
         row-gap: 32px;
+        align-items: flex-start;
     }
 }
