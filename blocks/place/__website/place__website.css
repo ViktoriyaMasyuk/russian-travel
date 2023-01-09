@@ -14,12 +14,8 @@
 
 @media screen and (max-width: 750px) {
     .place__website {
-        max-width: 288px;
-        margin: 0 auto 0 16px;
-    }
-}
-@media screen and (max-width: 380px) {
-    .place__website {
-        margin: 0 auto 0 16px;
+        max-width: 718px;
+        width: calc(100% - 32px);
+        margin: 0 auto;
     }
 }

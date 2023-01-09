@@ -19,10 +19,10 @@
         column-gap: 28px;
     }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 745px) {
     .place {
         width: 100%;
-        margin: 0;
+        margin: 0 auto;
         grid-template-areas:
         "place__title"
         "place__website"

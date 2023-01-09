@@ -20,8 +20,9 @@
 }
 @media screen and (max-width: 750px) {
     .place__chapter {
-        max-width: 288px;
-        margin: 0px 16px;
+        max-width: 718px;
+        width: calc(100% - 32px);
+        margin: 0 auto;
     }
 }
 
