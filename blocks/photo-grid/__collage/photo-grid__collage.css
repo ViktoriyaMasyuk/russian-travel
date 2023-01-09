@@ -24,7 +24,7 @@
         row-gap: 16px;
     }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 650px) {
     .photo-grid__collage {
         grid-template-columns: repeat(1, minmax(284px, 355px));
         column-gap: 0px;
